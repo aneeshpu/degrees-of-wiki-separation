@@ -3,15 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" name="Default" comment="Interim commit">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/degrees_of_wiki_separation/core.clj" afterPath="$PROJECT_DIR$/src/degrees_of_wiki_separation/core.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/degrees_of_wiki_separation/core_test.clj" afterPath="$PROJECT_DIR$/test/degrees_of_wiki_separation/core_test.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="degrees-of-wiki-separation.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Clojure REPL" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384087061051" ignored="false" />
     <file path="/core_test.clj" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384096400397" ignored="false" />
-    <file path="/core.clj" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384611927259" ignored="false" />
+    <file path="/core.clj" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385086807590" ignored="false" />
     <file path="/project.clj" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384079548026" ignored="false" />
-    <file path="/Dummy.txt" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384612319141" ignored="false" />
+    <file path="/Dummy.txt" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385036210779" ignored="false" />
     <file path="$USER_HOME$/thoughtworks/esb-mosso-service-us/mosso-service-cxf-se/src/main/java/com/rackspace/cloud/billing/service/refund/dataimport/SpreadSheetImporter.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384263933848" ignored="false" />
     <file path="$USER_HOME$/thoughtworks/esb-mosso-service-us/mosso-service-cxf-se/src/main/java/com/rackspace/cloud/billing/service/refund/dataimport/CreditSpreadSheetImporter.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384263799442" ignored="false" />
     <file path="$USER_HOME$/thoughtworks/esb-mosso-service-us/mosso-service-cxf-se/src/main/java/com/rackspace/cloud/billing/service/refund/dataimport/RefundSpreadSheetImporter.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384255983854" ignored="false" />
@@ -19,7 +20,7 @@
     <file path="/ExcelWorkSheetHandler.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384247192311" ignored="false" />
     <file path="$USER_HOME$/thoughtworks/esb-mosso-service-us/mosso-service-cxf-se/src/test/java/com/rackspace/cloud/billing/service/refund/dataimport/RefundSpreadSheetImporterTest.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384264468442" ignored="false" />
     <file path="$USER_HOME$/thoughtworks/esb-mosso-service-us/mosso-service-cxf-se/src/main/java/com/rackspace/cloud/billing/service/refund/dataimport/RefundExcelWorkSheetHandler.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384247523800" ignored="false" />
-    <file path="/fragment.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384519176278" ignored="false" />
+    <file path="/fragment.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385033839169" ignored="false" />
     <file path="$USER_HOME$/thoughtworks/esb-mosso-service-us/mosso-service-cxf-se/src/main/java/com/rackspace/cloud/billing/service/refund/dataimport/RefundRequestSpreadsheet.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384247495668" ignored="false" />
     <file path="$USER_HOME$/thoughtworks/esb-mosso-service-us/mosso-service-cxf-se/src/main/java/com/rackspace/cloud/billing/service/refund/dataimport/MassCreditRequestImporter.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384264018121" ignored="false" />
     <file path="$USER_HOME$/thoughtworks/esb-mosso-service-us/mosso-service-cxf-se/src/main/java/com/rackspace/cloud/billing/service/refund/dataimport/FailedRecordSpreadsheetCreator.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384262798910" ignored="false" />
@@ -35,7 +36,7 @@
     <file path="/MassRefundRequestImporter.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384264141534" ignored="false" />
     <file path="$USER_HOME$/thoughtworks/esb-mosso-service-us/mosso-service-cxf-se/src/main/java/com/rackspace/cloud/billing/service/refund/dataimport/AbstractMassRequestImporter.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384264462685" ignored="false" />
     <file path="/AbstractMassRequestImporter.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384264454578" ignored="false" />
-    <file path="/a.dummy" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384516861148" ignored="false" />
+    <file path="/a.dummy" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385032737233" ignored="false" />
     <file path="/CreditSpreadSheetImporter.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384263798520" ignored="false" />
     <file path="$USER_HOME$/thoughtworks/esb-mosso-service-us/mosso-service-client/target/generated-sources/cxf/com/rackspace/cloud/billing/bean/CurrencyConversionRequestType.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384519511674" ignored="false" />
     <file path="$USER_HOME$/thoughtworks/esb-mosso-service-us/mosso-service-client/target/generated-sources/cxf/com/rackspace/cloud/billing/bean/RefundRequestValidationFaultType.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384519511677" ignored="false" />
@@ -474,30 +475,30 @@
     <file path="$USER_HOME$/thoughtworks/esb-mosso-service-us/mosso-service-client/target/generated-sources/cxf/com/cybersource/schemas/transaction_data_1/CCDCCService.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384335865409" ignored="false" />
     <file path="$USER_HOME$/thoughtworks/esb-mosso-service-us/mosso-service-client/target/generated-sources/cxf/com/xignite/services/Tick.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384335865410" ignored="false" />
     <file path="$USER_HOME$/thoughtworks/esb-mosso-service-us/mosso-service-client/target/generated-sources/cxf/com/rackspace/cloud/product/bean/OfferingPriceType.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384335865410" ignored="false" />
-    <file path="$USER_HOME$/thoughtworks/esb-mosso-service-us/mosso-service-cxf-se/src/main/java/com/rackspace/cloud/billing/service/BillingImpl.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384514521040" ignored="false" />
+    <file path="$USER_HOME$/thoughtworks/esb-mosso-service-us/mosso-service-cxf-se/src/main/java/com/rackspace/cloud/billing/service/BillingImpl.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384751990585" ignored="false" />
     <file path="$USER_HOME$/thoughtworks/esb-mosso-service-us/mosso-service-client/target/generated-sources/cxf/com/rackspace/cloud/billing/bean/CreditRequestParametersType.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384519511674" ignored="false" />
     <file path="/BillingImpl.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384514467190" ignored="false" />
     <file path="$USER_HOME$/thoughtworks/esb-mosso-service-us/mosso-service-cxf-se/src/main/java/com/rackspace/cloud/billing/service/refund/RefundRequestCreator.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384338569162" ignored="false" />
     <file path="$USER_HOME$/thoughtworks/mosso-data-us/src/test/java/com/mosso/data/dao/billing/hibernate/BillableDiscountDaoHibernateImplTest.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384338863235" ignored="false" />
     <file path="$USER_HOME$/thoughtworks/mosso-data-us/src/main/java/com/mosso/data/to/billing/BillableTaxBase.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384338863235" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/com/mosso/mosso-data/1.26.0-MANAGED-SNAPSHOT/mosso-data-1.26.0-MANAGED-SNAPSHOT.jar!/com/mosso/data/to/billing/RefundRequest.class" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384338863235" ignored="false" />
-    <file path="$USER_HOME$/thoughtworks/mosso-data-us/src/main/resources/hm-core-no-remote.xml" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384508926427" ignored="false" />
-    <file path="$USER_HOME$/thoughtworks/mosso-data-us/src/main/resources/com/mosso/data/to/billing/billing.hbm.xml" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384429752282" ignored="false" />
-    <file path="/billing.hbm.xml" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384429499510" ignored="false" />
+    <file path="$USER_HOME$/thoughtworks/mosso-data-us/src/main/resources/hm-core-no-remote.xml" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385025533946" ignored="false" />
+    <file path="$USER_HOME$/thoughtworks/mosso-data-us/src/main/resources/com/mosso/data/to/billing/billing.hbm.xml" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385028045138" ignored="false" />
+    <file path="/billing.hbm.xml" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385027706586" ignored="false" />
     <file path="$USER_HOME$/thoughtworks/mosso-data-us/src/main/java/com/mosso/data/to/billing/CreditRequest.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384509528309" ignored="false" />
     <file path="/CreditRequest.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384509505741" ignored="false" />
-    <file path="$USER_HOME$/thoughtworks/esb-mosso-service-us/sqls/bulkcredits/BulkCredits-DDL-Forward.sql" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384429255972" ignored="false" />
-    <file path="/BulkCredits-DDL-Forward.sql" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384429255154" ignored="false" />
+    <file path="$USER_HOME$/thoughtworks/esb-mosso-service-us/sqls/bulkcredits/BulkCredits-DDL-Forward.sql" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385035833912" ignored="false" />
+    <file path="/BulkCredits-DDL-Forward.sql" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385035829266" ignored="false" />
     <file path="$USER_HOME$/thoughtworks/mosso-data-us/src/test/resources/com/mosso/data/to/billing/CreditRequestStatus.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384341862085" ignored="false" />
-    <file path="$USER_HOME$/thoughtworks/mosso-data-us/src/main/java/com/mosso/data/dao/billing/hibernate/CreditRequestDao.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384344928324" ignored="false" />
+    <file path="$USER_HOME$/thoughtworks/mosso-data-us/src/main/java/com/mosso/data/dao/billing/hibernate/CreditRequestDao.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385028219995" ignored="false" />
     <file path="$USER_HOME$/thoughtworks/mosso-data-us/src/main/java/com/mosso/data/dao/billing/hibernate/Offaakki.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384344443240" ignored="false" />
-    <file path="/CreditRequestDao.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384344749269" ignored="false" />
-    <file path="$USER_HOME$/thoughtworks/mosso-data-us/src/main/java/com/mosso/data/dao/billing/hibernate/CreditRequestHibernateDaoImpl.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384410487856" ignored="false" />
-    <file path="/CreditRequestHibernateDaoImpl.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384410477497" ignored="false" />
-    <file path="$USER_HOME$/thoughtworks/mosso-data-us/src/test/java/com/mosso/data/dao/billing/hibernate/CreditRequestHibernateDaoImplTest.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384511016120" ignored="false" />
-    <file path="/CreditRequestHibernateDaoImplTest.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384509889082" ignored="false" />
+    <file path="/CreditRequestDao.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385025455094" ignored="false" />
+    <file path="$USER_HOME$/thoughtworks/mosso-data-us/src/main/java/com/mosso/data/dao/billing/hibernate/CreditRequestHibernateDaoImpl.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385028219995" ignored="false" />
+    <file path="/CreditRequestHibernateDaoImpl.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385028216618" ignored="false" />
+    <file path="$USER_HOME$/thoughtworks/mosso-data-us/src/test/java/com/mosso/data/dao/billing/hibernate/CreditRequestHibernateDaoImplTest.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385031871015" ignored="false" />
+    <file path="/CreditRequestHibernateDaoImplTest.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385028753543" ignored="false" />
     <file path="$USER_HOME$/thoughtworks/mosso-data-us/pom.xml" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384345998434" ignored="false" />
-    <file path="/pom.xml" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384345998434" ignored="false" />
+    <file path="/pom.xml" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385034291945" ignored="false" />
     <file path="$PROJECT_DIR$/../../codereview/DBDependencyPopulator/src/test/java/com/aneeshpu/dpdeppop/schema/RecordTest.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384422973266" ignored="false" />
     <file path="/RecordTest.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384346497477" ignored="false" />
     <file path="$USER_HOME$/thoughtworks/mosso-data-us/src/main/resources/hm-core.xml" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384511573763" ignored="false" />
@@ -527,6 +528,24 @@
     <file path="$MAVEN_REPOSITORY$/com/mosso/service/mosso-service-logic/1.21.0-SNAPSHOT/mosso-service-logic-1.21.0-SNAPSHOT-tests.jar!/jndi.xml" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384515769797" ignored="false" />
     <file path="$USER_HOME$/thoughtworks/esb-mosso-service-us/mosso-service-cxf-se/src/test/java/com/rackspace/cloud/billing/service/refund/dataimport/MassCreditRequestImporterTest.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384519391270" ignored="false" />
     <file path="/MassCreditRequestImporterTest.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384515799600" ignored="false" />
+    <file path="$USER_HOME$/thoughtworks/mosso-go/src/main/java/com/mosso/web/billing/bulkrefund/IssueBulkRefundAction.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385020670847" ignored="false" />
+    <file path="/IssueBulkRefundAction.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385020668565" ignored="false" />
+    <file path="$USER_HOME$/thoughtworks/mosso-go/src/test/java/com/mosso/web/billing/bulkcredit/BulkCreditsActionTest.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385034436069" ignored="false" />
+    <file path="/BulkCreditsActionTest.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385034433290" ignored="false" />
+    <file path="$USER_HOME$/thoughtworks/mosso-go/src/main/java/com/mosso/web/billing/bulkcredit/BulkCreditsAction.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385034172392" ignored="false" />
+    <file path="/BulkCreditsAction.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385034170293" ignored="false" />
+    <file path="$USER_HOME$/thoughtworks/mosso-service/src/test/java/com/mosso/service/billing/BulkRefundServiceTest.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385033944648" ignored="false" />
+    <file path="/BulkRefundServiceTest.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385033936934" ignored="false" />
+    <file path="$USER_HOME$/thoughtworks/mosso-service/src/main/java/com/mosso/service/billing/BulkRefundService.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385034025899" ignored="false" />
+    <file path="/BulkRefundService.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385034013833" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/junit/junit/4.4/junit-4.4.jar!/org/hamcrest/core/Is.class" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385031130340" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/com/mosso/mosso-data/1.27.0-MANAGED-SNAPSHOT/mosso-data-1.27.0-MANAGED-SNAPSHOT.jar!/com/mosso/data/to/billing/RefundRequestStatus.class" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385032303504" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/com/mosso/mosso-data/1.27.0-MANAGED-SNAPSHOT/mosso-data-1.27.0-MANAGED-SNAPSHOT.jar!/com/mosso/data/to/billing/CreditRequest.class" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385032303504" ignored="false" />
+    <file path="$USER_HOME$/thoughtworks/mosso-go/src/main/resources/mosso-service.xml" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385034234241" ignored="false" />
+    <file path="/mosso-service.xml" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385034191236" ignored="false" />
+    <file path="$USER_HOME$/thoughtworks/mosso-go/pom.xml" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385034992791" ignored="false" />
+    <file path="/CreditMemoCreator.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385035043049" ignored="false" />
+    <file path="$USER_HOME$/thoughtworks/esb-mosso-service-us/mosso-service-cxf-se/src/main/java/com/rackspace/cloud/billing/service/refund/CreditMemoCreator.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385035044282" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -583,7 +602,7 @@
       </breakpoint>
     </breakpoint_any>
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/degrees_of_wiki_separation/core.clj" line="50" class="Class at core.clj:33" package="">
+      <breakpoint url="file://$PROJECT_DIR$/src/degrees_of_wiki_separation/core.clj" line="70" class="Class at core.clj:70" package="">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -633,19 +652,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="core.clj" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="core.clj" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/degrees_of_wiki_separation/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="40" selection-start="532" selection-end="532" vertical-scroll-proportion="0.062159214">
+            <state line="77" column="44" selection-start="1859" selection-end="1862" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="core_test.clj" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="core_test.clj" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/degrees_of_wiki_separation/core_test.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="14" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0">
+            <state line="15" column="62" selection-start="492" selection-end="492" vertical-scroll-proportion="0.3318584">
               <folding />
             </state>
           </provider>
@@ -670,8 +689,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/project.clj" />
-        <option value="$PROJECT_DIR$/test/degrees_of_wiki_separation/core_test.clj" />
         <option value="$PROJECT_DIR$/src/degrees_of_wiki_separation/core.clj" />
+        <option value="$PROJECT_DIR$/test/degrees_of_wiki_separation/core_test.clj" />
       </list>
     </option>
   </component>
@@ -697,7 +716,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="PackagesPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -709,84 +728,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project.clj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project.clj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Leiningen: org.clojure:clojure:1.5.1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clojure-1.5.1.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project.clj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="degrees-of-wiki-separation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project.clj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="degrees-of-wiki-separation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="degrees_of_wiki_separation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project.clj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="degrees-of-wiki-separation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="degrees_of_wiki_separation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -815,6 +756,44 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project.clj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project.clj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="degrees-of-wiki-separation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project.clj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="degrees-of-wiki-separation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="degrees_of_wiki_separation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
@@ -830,9 +809,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RunManager" selected="Clojure Script.core_test">
     <configuration default="false" name="core_test" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
@@ -1007,7 +986,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2361111" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16720085" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1018,7 +997,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32979852" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="BuildWatcher" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1032,6 +1010,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32979852" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1199,16 +1178,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/degrees_of_wiki_separation/core_test.clj">
+    <entry file="file://$PROJECT_DIR$/src/degrees_of_wiki_separation/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="14" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0">
+        <state line="77" column="44" selection-start="1859" selection-end="1862" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/degrees_of_wiki_separation/core.clj">
+    <entry file="file://$PROJECT_DIR$/test/degrees_of_wiki_separation/core_test.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="40" selection-start="532" selection-end="532" vertical-scroll-proportion="0.062159214">
+        <state line="15" column="62" selection-start="492" selection-end="492" vertical-scroll-proportion="0.3318584">
           <folding />
         </state>
       </provider>

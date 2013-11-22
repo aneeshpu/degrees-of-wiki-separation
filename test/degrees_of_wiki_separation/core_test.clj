@@ -13,4 +13,4 @@
   )
 
 (deftest find-link-test
-  (find-link "http://en.wikipedia.org/wiki/Linus_Torvalds" "/wiki/Gustav_I_of_Sweden" 3))
+  (find-link "http://en.wikipedia.org/wiki/Linus_Torvalds" 2 "/wiki/Pseudo_terminal"))

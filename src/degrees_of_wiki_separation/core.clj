@@ -2,16 +2,17 @@
   (:require [clj-http.client :as client]
             [net.cgrand.enlive-html :as html]))
 
-(defn is-image
+(defn image?
   [url]
-  (some #(.endsWith url %) ["jpeg" "gif"]))
+  (some #(.endsWith url %) ["jpg" "jpeg" "gif"]))
+
 
 (defn get-page
   [url]
   (if
     (and
       (not= nil url)
-      (not (is-image url)))
+      (not (image? url)))
     (try
       (html/html-resource
         (java.net.URL.
@@ -20,43 +21,68 @@
             url
             (.concat "http:" url))))
       (catch java.io.FileNotFoundException fofe
-        (println (.getMessage fofe))))))
+        (.printStackTrace fofe))
+      (catch Exception e
+        (.printStackTrace e)))))
 
-  (defn get-links
-    [url]
-    (map #(get % :href )
-      (map #(get % :attrs )
-        (html/select
-          (get-page url)
-          [:a ]))))
-
-
-  (defn is-link-present
-    [urls target]
-    (reduce #(or %1 %2) (map #(= % target) urls)))
-
-  (def not-nil?
-    (complement nil?))
-
-  (defn is-valid
-    [url]
-    (and (not-nil? url)
-      (not (.startsWith url "#"))
-      (or (.startsWith url "http://")
-        (.startsWith url "//"))))
+(defn get-links
+  [url]
+  (println "getting links from " url)
+  (map #(get % :href )
+    (map #(get % :attrs )
+      (html/select
+        (get-page url)
+        [:div#bodyContent :a ]))))
 
 
-  (defn find-link
-    [url target depth]
-    (println "searching for " target " on " url)
-    (let [links (get-links url)]
-      (if (and (> 0 (count links)) (is-link-present links target))
-        (println "found " target " at " url)
+(defn link-present?
+  [urls target]
+  ;  (println "is " target " present")
+  (some #(= % target) urls))
+
+(def not-nil?
+  (complement nil?))
+
+(defn searchable-url?
+  [url]
+  (def is-valid-url (and
+                      (not-nil? url)
+                      (or
+                        (.startsWith url "http://wikipedia.org")
+                        (.startsWith url "http://en.wikipedia.org"))
+                      (not (image? url))
+                      ))
+  (println "is " url " valid " is-valid-url)
+  is-valid-url)
+
+(defn make-full-url
+  [url]
+  (if
+    (not (nil? url))
+    (if (.startsWith url "/")
+      (.concat "http://wikipedia.org" url)
+      url)
+    url))
+
+
+(defn find-link
+  [url depth target &{:keys [parent]}]
+  (java.lang.Thread/sleep 5000)
+  (println "searching for " target " on " url " from parent " parent " at depth " depth)
+  (if (searchable-url? (make-full-url url))
+    (let [links (set (get-links (make-full-url url)))]
+      (if
+        (and
+          ;(> 0 (count links))
+          (link-present? links target))
+        ((println "found " target " at " url)
+          url)
         (if (<= depth 0)
           (println "could not find " target "on " url)
           ((println "searching deeper. Is links == nil?" (nil? links))
             (doseq [link links]
-              (if (is-valid link)
-                (find-link link target (dec depth)))
+              ;                (is-valid link)
+              (find-link link (dec depth) target :parent url)
               ;#(find-link % target (dec depth))
-              ))))))
+              )))))
+    nil))
