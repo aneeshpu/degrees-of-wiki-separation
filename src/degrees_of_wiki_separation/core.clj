@@ -47,15 +47,13 @@
 
 (defn searchable-url?
   [url]
-  (def is-valid-url (and
-                      (not-nil? url)
-                      (or
-                        (.startsWith url "http://wikipedia.org")
-                        (.startsWith url "http://en.wikipedia.org"))
-                      (not (image? url))
-                      ))
-  (println "is " url " valid " is-valid-url)
-  is-valid-url)
+  (and
+    (not-nil? url)
+    (or
+      (.startsWith url "http://wikipedia.org")
+      (.startsWith url "http://en.wikipedia.org"))
+    (not (image? url))
+    ))
 
 (defn make-full-url
   [url]
@@ -68,7 +66,7 @@
 
 
 (defn find-link
-  [url depth target &{:keys [parent]}]
+  [url depth target & {:keys [parent]}]
   (java.lang.Thread/sleep 5000)
   (println "searching for " target " on " url " from parent " parent " at depth " depth)
   (if (searchable-url? (make-full-url url))

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/degrees_of_wiki_separation/core.clj" afterPath="$PROJECT_DIR$/src/degrees_of_wiki_separation/core.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/degrees_of_wiki_separation/core_test.clj" afterPath="$PROJECT_DIR$/test/degrees_of_wiki_separation/core_test.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="degrees-of-wiki-separation.iws" />
@@ -12,7 +11,7 @@
     <file path="/core_test.clj" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384096400397" ignored="false" />
     <file path="/core.clj" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385088251144" ignored="false" />
     <file path="/project.clj" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384079548026" ignored="false" />
-    <file path="/Dummy.txt" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385282656737" ignored="false" />
+    <file path="/Dummy.txt" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385289549103" ignored="false" />
     <file path="$USER_HOME$/thoughtworks/esb-mosso-service-us/mosso-service-cxf-se/src/main/java/com/rackspace/cloud/billing/service/refund/dataimport/SpreadSheetImporter.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384263933848" ignored="false" />
     <file path="$USER_HOME$/thoughtworks/esb-mosso-service-us/mosso-service-cxf-se/src/main/java/com/rackspace/cloud/billing/service/refund/dataimport/CreditSpreadSheetImporter.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384263799442" ignored="false" />
     <file path="$USER_HOME$/thoughtworks/esb-mosso-service-us/mosso-service-cxf-se/src/main/java/com/rackspace/cloud/billing/service/refund/dataimport/RefundSpreadSheetImporter.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384255983854" ignored="false" />
@@ -615,7 +614,7 @@
       </breakpoint>
     </breakpoint_any>
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/degrees_of_wiki_separation/core.clj" line="72" class="Class at core.clj:72" package="">
+      <breakpoint url="file://$PROJECT_DIR$/src/degrees_of_wiki_separation/core.clj" line="70" class="Class at core.clj:72" package="">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -668,7 +667,7 @@
       <file leaf-file-name="core.clj" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/degrees_of_wiki_separation/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="2" selection-start="1313" selection-end="1313" vertical-scroll-proportion="0.36887923">
+            <state line="55" column="6" selection-start="1184" selection-end="1184" vertical-scroll-proportion="0.3478735">
               <folding />
             </state>
           </provider>
@@ -702,8 +701,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/project.clj" />
-        <option value="$PROJECT_DIR$/src/degrees_of_wiki_separation/core.clj" />
         <option value="$PROJECT_DIR$/test/degrees_of_wiki_separation/core_test.clj" />
+        <option value="$PROJECT_DIR$/src/degrees_of_wiki_separation/core.clj" />
       </list>
     </option>
   </component>
@@ -996,7 +995,11 @@
       <created>1385087772296</created>
       <updated>1385087772296</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Searching for relative URLs as well.">
+      <created>1385289555360</created>
+      <updated>1385289555360</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1017,6 +1020,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32979852" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="BuildWatcher" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1030,7 +1034,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32979852" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1076,7 +1079,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Printing parent page in the logs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Searching for relative URLs as well." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1092,6 +1095,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Interim commit" />
     <MESSAGE value="Printing parent page in the logs" />
+    <MESSAGE value="Searching for relative URLs as well." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1208,7 +1212,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/degrees_of_wiki_separation/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="2" selection-start="1313" selection-end="1313" vertical-scroll-proportion="0.36887923">
+        <state line="55" column="6" selection-start="1184" selection-end="1184" vertical-scroll-proportion="0.3478735">
           <folding />
         </state>
       </provider>
