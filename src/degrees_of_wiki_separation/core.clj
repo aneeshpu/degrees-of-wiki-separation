@@ -2,6 +2,8 @@
   (:require [clj-http.client :as client]
             [net.cgrand.enlive-html :as html]))
 
+
+
 (defn image?
   [url]
   (some #(.endsWith url %) ["jpg" "jpeg" "gif"]))
@@ -73,7 +75,6 @@
     (let [links (set (get-links (make-full-url url)))]
       (if
         (and
-          ;(> 0 (count links))
           (link-present? links target))
         ((println "found " target " at " url)
           url)
@@ -81,8 +82,6 @@
           (println "could not find " target "on " url)
           ((println "searching deeper. Is links == nil?" (nil? links))
             (doseq [link links]
-              ;                (is-valid link)
               (find-link link (dec depth) target :parent url)
-              ;#(find-link % target (dec depth))
               )))))
     nil))

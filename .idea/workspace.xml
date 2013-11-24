@@ -11,7 +11,7 @@
     <file path="/core_test.clj" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384096400397" ignored="false" />
     <file path="/core.clj" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385088251144" ignored="false" />
     <file path="/project.clj" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384079548026" ignored="false" />
-    <file path="/Dummy.txt" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385289549103" ignored="false" />
+    <file path="/Dummy.txt" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385289643490" ignored="false" />
     <file path="$USER_HOME$/thoughtworks/esb-mosso-service-us/mosso-service-cxf-se/src/main/java/com/rackspace/cloud/billing/service/refund/dataimport/SpreadSheetImporter.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384263933848" ignored="false" />
     <file path="$USER_HOME$/thoughtworks/esb-mosso-service-us/mosso-service-cxf-se/src/main/java/com/rackspace/cloud/billing/service/refund/dataimport/CreditSpreadSheetImporter.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384263799442" ignored="false" />
     <file path="$USER_HOME$/thoughtworks/esb-mosso-service-us/mosso-service-cxf-se/src/main/java/com/rackspace/cloud/billing/service/refund/dataimport/RefundSpreadSheetImporter.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384255983854" ignored="false" />
@@ -614,7 +614,7 @@
       </breakpoint>
     </breakpoint_any>
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/degrees_of_wiki_separation/core.clj" line="70" class="Class at core.clj:72" package="">
+      <breakpoint url="file://$PROJECT_DIR$/src/degrees_of_wiki_separation/core.clj" line="72" class="Class at core.clj:72" package="">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -667,7 +667,7 @@
       <file leaf-file-name="core.clj" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/degrees_of_wiki_separation/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="6" selection-start="1184" selection-end="1184" vertical-scroll-proportion="0.3478735">
+            <state line="4" column="0" selection-start="126" selection-end="126" vertical-scroll-proportion="0.087241">
               <folding />
             </state>
           </provider>
@@ -999,7 +999,11 @@
       <created>1385289555360</created>
       <updated>1385289555360</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Removed a def declaration">
+      <created>1385289648937</created>
+      <updated>1385289648937</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1079,7 +1083,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Searching for relative URLs as well." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed a def declaration" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1096,6 +1100,7 @@
     <MESSAGE value="Interim commit" />
     <MESSAGE value="Printing parent page in the logs" />
     <MESSAGE value="Searching for relative URLs as well." />
+    <MESSAGE value="Removed a def declaration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1212,7 +1217,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/degrees_of_wiki_separation/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="6" selection-start="1184" selection-end="1184" vertical-scroll-proportion="0.3478735">
+        <state line="4" column="0" selection-start="126" selection-end="126" vertical-scroll-proportion="0.087241">
           <folding />
         </state>
       </provider>
