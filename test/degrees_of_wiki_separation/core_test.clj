@@ -13,4 +13,4 @@
   )
 
 (deftest find-link-test
-  (find-link "http://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)" 2 "/wiki/Yale_University"))
+  (find-link "http://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)" 3 "/wiki/Quantum_physics"))

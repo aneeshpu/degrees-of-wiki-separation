@@ -72,12 +72,12 @@
   [source depth target & {:keys [parent]}]
   (java.lang.Thread/sleep 2000)
   (println "searching for " target " on " source " from parent " parent " at depth " depth)
-  (if (searchable-url? (make-full-url source))
-    (let [links (set (get-links (make-full-url source)))]
-      (if (link-present? links target)
-        source
-        (if (<= depth 0)
-          nil
+  (if (< depth 0)
+    nil
+    (if (searchable-url? (make-full-url source))
+      (let [links (set (get-links (make-full-url source)))]
+        (if (link-present? links target)
+          source
           (some #(not-nil? (find-link % (dec depth) target :parent source)) links)
-          ))))
-  nil)
+          ))
+      nil)))
