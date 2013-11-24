@@ -3,15 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/degrees_of_wiki_separation/core.clj" afterPath="$PROJECT_DIR$/src/degrees_of_wiki_separation/core.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/degrees_of_wiki_separation/core_test.clj" afterPath="$PROJECT_DIR$/test/degrees_of_wiki_separation/core_test.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="degrees-of-wiki-separation.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Clojure REPL" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384087061051" ignored="false" />
     <file path="/core_test.clj" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384096400397" ignored="false" />
-    <file path="/core.clj" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385088251144" ignored="false" />
+    <file path="/core.clj" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385305489491" ignored="false" />
     <file path="/project.clj" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384079548026" ignored="false" />
-    <file path="/Dummy.txt" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385289643490" ignored="false" />
+    <file path="/Dummy.txt" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385289788581" ignored="false" />
     <file path="$USER_HOME$/thoughtworks/esb-mosso-service-us/mosso-service-cxf-se/src/main/java/com/rackspace/cloud/billing/service/refund/dataimport/SpreadSheetImporter.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384263933848" ignored="false" />
     <file path="$USER_HOME$/thoughtworks/esb-mosso-service-us/mosso-service-cxf-se/src/main/java/com/rackspace/cloud/billing/service/refund/dataimport/CreditSpreadSheetImporter.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384263799442" ignored="false" />
     <file path="$USER_HOME$/thoughtworks/esb-mosso-service-us/mosso-service-cxf-se/src/main/java/com/rackspace/cloud/billing/service/refund/dataimport/RefundSpreadSheetImporter.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384255983854" ignored="false" />
@@ -614,7 +615,7 @@
       </breakpoint>
     </breakpoint_any>
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/degrees_of_wiki_separation/core.clj" line="72" class="Class at core.clj:72" package="">
+      <breakpoint url="file://$PROJECT_DIR$/src/degrees_of_wiki_separation/core.clj" line="73" class="Class at core.clj:71" package="">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -655,19 +656,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="project.clj" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="25" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="core.clj" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/degrees_of_wiki_separation/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="126" selection-end="126" vertical-scroll-proportion="0.087241">
+            <state line="80" column="10" selection-start="1763" selection-end="1763" vertical-scroll-proportion="0.7359736">
               <folding />
             </state>
           </provider>
@@ -676,7 +668,7 @@
       <file leaf-file-name="core_test.clj" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/degrees_of_wiki_separation/core_test.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="77" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0">
+            <state line="15" column="11" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -841,9 +833,7 @@
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -859,6 +849,15 @@
       <setting name="params" value="" />
       <setting name="workDir" value="" />
       <setting name="repl" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="LeiningenRunConfiguration" factoryName="Leiningen">
+      <LeiningenRunnerParameters>
+        <option name="goals">
+          <list />
+        </option>
+        <option name="workingDirectory" value="" />
+      </LeiningenRunnerParameters>
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -1003,7 +1002,11 @@
       <created>1385289648937</created>
       <updated>1385289648937</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Removed comments.">
+      <created>1385289793516</created>
+      <updated>1385289793516</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1013,7 +1016,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16720085" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16720085" sideWeight="0.6702015" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1032,8 +1035,8 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39957264" sideWeight="0.6702015" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15438034" sideWeight="0.6002121" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32979852" sideWeight="0.53739315" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15438034" sideWeight="0.6702015" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32979852" sideWeight="0.53739315" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1083,7 +1086,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed a def declaration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed comments." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1101,6 +1104,7 @@
     <MESSAGE value="Printing parent page in the logs" />
     <MESSAGE value="Searching for relative URLs as well." />
     <MESSAGE value="Removed a def declaration" />
+    <MESSAGE value="Removed comments." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1201,23 +1205,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/degrees_of_wiki_separation/core_test.clj">
+    <entry file="file://$PROJECT_DIR$/project.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="77" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0">
+        <state line="6" column="25" selection-start="309" selection-end="309" vertical-scroll-proportion="0.1308615">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project.clj">
+    <entry file="file://$PROJECT_DIR$/test/degrees_of_wiki_separation/core_test.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="25" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0">
+        <state line="15" column="11" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/degrees_of_wiki_separation/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="126" selection-end="126" vertical-scroll-proportion="0.087241">
+        <state line="80" column="10" selection-start="1763" selection-end="1763" vertical-scroll-proportion="0.7359736">
           <folding />
         </state>
       </provider>

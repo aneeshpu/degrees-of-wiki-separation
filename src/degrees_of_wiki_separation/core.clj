@@ -39,13 +39,14 @@
 
 (defn link-present?
   [urls target]
-  ;  (println "is " target " present")
   (or
     (some #(= % target) urls)
     (some #(= % (.concat "http://en.wikipedia.org" target)) urls)))
 
 (def not-nil?
-  (complement nil?))
+  (let [blah (complement nil?)]
+    (println "inside not-nil?-------------" blah)
+    blah))
 
 (defn searchable-url?
   [url]
@@ -68,20 +69,15 @@
 
 
 (defn find-link
-  [url depth target & {:keys [parent]}]
-  (java.lang.Thread/sleep 5000)
-  (println "searching for " target " on " url " from parent " parent " at depth " depth)
-  (if (searchable-url? (make-full-url url))
-    (let [links (set (get-links (make-full-url url)))]
-      (if
-        (and
-          (link-present? links target))
-        ((println "found " target " at " url)
-          url)
+  [source depth target & {:keys [parent]}]
+  (java.lang.Thread/sleep 2000)
+  (println "searching for " target " on " source " from parent " parent " at depth " depth)
+  (if (searchable-url? (make-full-url source))
+    (let [links (set (get-links (make-full-url source)))]
+      (if (link-present? links target)
+        source
         (if (<= depth 0)
-          (println "could not find " target "on " url)
-          ((println "searching deeper. Is links == nil?" (nil? links))
-            (doseq [link links]
-              (find-link link (dec depth) target :parent url)
-              )))))
-    nil))
+          nil
+          (some #(not-nil? (find-link % (dec depth) target :parent source)) links)
+          ))))
+  nil)
