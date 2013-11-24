@@ -13,4 +13,4 @@
   )
 
 (deftest find-link-test
-  (find-link "http://en.wikipedia.org/wiki/Linus_Torvalds" 2 "/wiki/Pseudo_terminal"))
+  (find-link "http://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)" 2 "http://en.wikipedia.org/wiki/Richard_stallman"))

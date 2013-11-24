@@ -38,7 +38,9 @@
 (defn link-present?
   [urls target]
   ;  (println "is " target " present")
-  (some #(= % target) urls))
+  (or
+    (some #(= % target) urls)
+    (some #(= % (.concat "http://en.wikipedia.org" target)) urls)))
 
 (def not-nil?
   (complement nil?))
