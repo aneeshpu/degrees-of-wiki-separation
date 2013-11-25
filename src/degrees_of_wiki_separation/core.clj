@@ -67,6 +67,12 @@
       url)
     url))
 
+(defn my-find
+  [pred coll]
+  (if (pred (first coll))
+    (first coll)
+    (recur pred (next coll))))
+
 
 (defn find-link
   [source depth target & {:keys [parent]}]
@@ -78,6 +84,6 @@
       (let [links (set (get-links (make-full-url source)))]
         (if (link-present? links target)
           source
-          (some #(not-nil? (find-link % (dec depth) target :parent source)) links)
+          (my-find #(not-nil? (find-link % (dec depth) target :parent source)) links)
           ))
       nil)))

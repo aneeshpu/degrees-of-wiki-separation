@@ -13,4 +13,8 @@
   )
 
 (deftest find-link-test
-  (find-link "http://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)" 3 "/wiki/Quantum_physics"))
+  (testing "")
+  (let [result (find-link "http://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)" 3 "/wiki/LEPS")]
+    (println "result:" result)
+    (is
+      (= "/wiki/Molecular" result))))

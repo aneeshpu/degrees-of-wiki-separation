@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/degrees_of_wiki_separation/core.clj" afterPath="$PROJECT_DIR$/src/degrees_of_wiki_separation/core.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/degrees_of_wiki_separation/core_test.clj" afterPath="$PROJECT_DIR$/test/degrees_of_wiki_separation/core_test.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="degrees-of-wiki-separation.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Clojure REPL" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384087061051" ignored="false" />
-    <file path="/core_test.clj" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384096400397" ignored="false" />
-    <file path="/core.clj" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385306355767" ignored="false" />
+    <file path="/core_test.clj" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385308878169" ignored="false" />
+    <file path="/core.clj" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385345925484" ignored="false" />
     <file path="/project.clj" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384079548026" ignored="false" />
     <file path="/Dummy.txt" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1385308398133" ignored="false" />
     <file path="$USER_HOME$/thoughtworks/esb-mosso-service-us/mosso-service-cxf-se/src/main/java/com/rackspace/cloud/billing/service/refund/dataimport/SpreadSheetImporter.java" changelist="d9e92c34-de0c-4ddf-87bc-acc4d0363c86" time="1384263933848" ignored="false" />
@@ -613,7 +615,7 @@
       </breakpoint>
     </breakpoint_any>
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/degrees_of_wiki_separation/core.clj" line="73" class="Class at core.clj:71" package="">
+      <breakpoint url="file://$PROJECT_DIR$/src/degrees_of_wiki_separation/core.clj" line="79" class="Class at core.clj:71" package="">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -628,7 +630,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/test/degrees_of_wiki_separation/core_test.clj" line="15" class="Class at core_test.clj:15" package="">
+      <breakpoint url="file://$PROJECT_DIR$/test/degrees_of_wiki_separation/core_test.clj" line="16" class="Class at core_test.clj:15" package="">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -657,7 +659,7 @@
       <file leaf-file-name="core.clj" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/degrees_of_wiki_separation/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="15" selection-start="1759" selection-end="1763" vertical-scroll-proportion="0.7359736">
+            <state line="88" column="83" selection-start="1962" selection-end="1962" vertical-scroll-proportion="0.8349835">
               <folding />
             </state>
           </provider>
@@ -666,7 +668,7 @@
       <file leaf-file-name="core_test.clj" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/degrees_of_wiki_separation/core_test.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="82" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0">
+            <state line="20" column="24" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -1224,14 +1226,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/degrees_of_wiki_separation/core_test.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="82" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0">
+        <state line="20" column="24" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/degrees_of_wiki_separation/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="15" selection-start="1759" selection-end="1763" vertical-scroll-proportion="0.7359736">
+        <state line="88" column="83" selection-start="1962" selection-end="1962" vertical-scroll-proportion="0.8349835">
           <folding />
         </state>
       </provider>
